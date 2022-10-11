@@ -105,4 +105,42 @@ function stringToArray(string) {
   return s;
 }
 
-//******************************************* Kata function  *******************************************
+//******************************************* Kata exclamation mark  *******************************************
+
+let s = '!Hello World!';
+function removeExclamationMarks(s) {
+    let arr = [];
+    
+    for(let i = 0; i<s.length; i++){
+        arr.push(s[i]);
+    }
+    console.log(arr)
+    console.log(arr.includes("!"));
+    //while(arr.includes("!")){
+        for(let j = arr.length-1; j>=0; j--){
+            if(arr[j] === '!'){
+                arr.splice(j, 1);
+                console.log(arr)
+            }
+        }
+        //}
+        return arr.join('');
+    }
+    
+    console.log(removeExclamationMarks(s));
+    
+//******************************************* Kata invert  *******************************************
+let array = [1, 6, -10, 8]
+function invert(array) {
+    let newArr = [];
+    for(let i = 0; i < array.length; i++){
+        if(array[i]>=0){
+            newArr.push(array[i]*-1)
+        } else {
+            newArr.push(array[i]*-1)
+        }
+    }
+    return newArr;
+ }
+
+ console.log(invert(array));
