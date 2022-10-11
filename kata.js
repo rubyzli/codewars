@@ -99,3 +99,10 @@ console.log(areYouPlayingBanjo("bravo"));
 areYouPlayingBanjo("bravo");
 
 //******************************************* Kata function  *******************************************
+
+function stringToArray(string) {
+  let s = string.split(" ");
+  return s;
+}
+
+//******************************************* Kata function  *******************************************
