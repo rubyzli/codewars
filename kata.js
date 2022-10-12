@@ -1,41 +1,39 @@
 //******************************************* Kata Word Score *******************************************
 function high(x) {
-  //   let x = "hey hello hola";
-  let abc = [
-    "a",
-    "b",
-    "c",
-    "d",
-    "e",
-    "f",
-    "g",
-    "h",
-    "i",
-    "j",
-    "k",
-    "l",
-    "m",
-    "n",
-    "o",
-    "p",
-    "q",
-    "r",
-    "s",
-    "t",
-    "u",
-    "v",
-    "w",
-    "x",
-    "y",
-    "z",
-  ];
-
-  // split your string after every " "
-
+    //   let x = "hey hello hola";
+    let abc = [
+        "a",
+        "b",
+        "c",
+        "d",
+        "e",
+        "f",
+        "g",
+        "h",
+        "i",
+        "j",
+        "k",
+        "l",
+        "m",
+        "n",
+        "o",
+        "p",
+        "q",
+        "r",
+        "s",
+        "t",
+        "u",
+        "v",
+        "w",
+        "x",
+        "y",
+        "z",
+    ];
+    
+//******************************************* Kata split your string after every " " *******************************************
   const words = x.split(" ");
 
   // create empty obj
-
   const alphabetMap = {};
 
   for (let i = "a".charCodeAt(), j = 1; i <= "z".charCodeAt(); i++, j++) {
