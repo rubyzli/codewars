@@ -5,47 +5,51 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Codewars</title>
-    <link rel="stylesheet" href="css/bootstrap.css">
-    <link rel="stylesheet" href="./style.css">
+    <link rel="stylesheet" href="../css/bootstrap.css">
+    <link rel="stylesheet" href="style-kata-main.css">
 </head>
 <body>
-
-  <!--NAV Bar-->
+  <!--****************************** MENU ******************************-->
   <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
-    <a class="navbar-brand">Codewars</a>
+    <a class="navbar-brand" href="index.html">Codewars</a>
     <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarText" aria-controls="navbarText" aria-expanded="false" aria-label="Toggle navigation">
       <span class="navbar-toggler-icon"></span>
     </button>
     <div class="collapse navbar-collapse" id="navbarText">
       <ul class="navbar-nav mr-auto">
         <li class="nav-item active">
-          <a class="nav-link" href="#">Team</a>
+          <a class="nav-link" ref=".team">Team</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link" href="#">Week Plan</a>
+          <a class="nav-link" ref=".">Week Plan</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link" href="#">Difficulties</a>
+          <a class="nav-link" ref="#">Difficulties</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link" href="#">Solutions</a>
+          <a class="nav-link" ref="#">Solutions</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link" href="#">Scoreboard</a>
+          <a class="nav-link" ref="#kata-example">Scoreboard</a>
         </li>
       </ul>
     </div>
   </nav>
-
-  <!-- Team Cards -->
+  <!--****************************** KATANA H1 ******************************-->
+  <div class="katana-intro">
+    <img class="katana-svg" src="../source/Katana.svg" alt="Katana sword">
+    <p class="subTitle"><strong>Welcome to the matrix.</strong><br>
+      Your goal is to liberate yourself out of it.<br>
+      Do you have the sharpest KATANA to do so?</p>
+      <h1>KATANA</h1>
+  </div>
+  <!--****************************** THE TEAM ******************************-->
   <div
     class="p-5 text-center"
     style="
       background-color: black;
-      height: 100vh;
-    "
-  >
-  <h2 style="color: white"> The Team </h2>
+    ">
+  <h2 style="color: white" class="team">The Team</h2>
     <div class="row">
       <div class="card text-white bg-dark mb-3" style="width: 18rem; margin: 25px">
         <img src="./Dyre-Panama-Caffe-Small.JPG" class="card-img-top" alt="...">
@@ -85,6 +89,15 @@
     </div> 
     </div>
   </div>
-    <script src="js/bootstrap.bundle.js"></script>
+  
+  <!--****************************** KATA ******************************-->
+  <div class="containerKata">
+    <h2 class="scoreboardH2">Scoreboard</h2>
+    <button class="word-calc">Word Calculator</button>
+    <button class="bmi">Calculate BMI</button>
+    <button class="remove">Remove letters</button>
+  </div>
+<script src="../js/bootstrap.bundle.js"></script>
+<script src="index.js"></script>
 </body>
 </html>
