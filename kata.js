@@ -130,6 +130,7 @@ function removeExclamationMarks(s) {
     console.log(removeExclamationMarks(s));
     
 //******************************************* Kata invert  *******************************************
+
 let array = [1, 6, -10, 8]
 function invert(array) {
     let newArr = [];
