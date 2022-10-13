@@ -2,32 +2,7 @@
 function high(x) {
     //   let x = "hey hello hola";
     let abc = [
-        "a",
-        "b",
-        "c",
-        "d",
-        "e",
-        "f",
-        "g",
-        "h",
-        "i",
-        "j",
-        "k",
-        "l",
-        "m",
-        "n",
-        "o",
-        "p",
-        "q",
-        "r",
-        "s",
-        "t",
-        "u",
-        "v",
-        "w",
-        "x",
-        "y",
-        "z",
+        "a", "b", "c", "d", "e", "f", "g", "h", "i", "j", "k", "l", "m", "n", "o", "p", "q", "r", "s", "t", "u", "v", "w", "x", "y", "z",
     ];
     
 //******************************************* Kata split your string after every " " *******************************************
@@ -142,4 +117,20 @@ function invert(array) {
     return newArr;
  }
 
- console.log(invert(array));
+console.log(invert(array));
+ 
+//******************************************* Kata Calculate BMI *******************************************
+
+function bmi(weight, height) {
+  let index = weight / (height*height)
+
+  if(index <= 18.5){
+  return "Underweight";
+} else if(index <=25){
+  return "Normal";
+}else if(index <=30){
+  return "Overweight";
+}else if(index > 30){
+  return "Obese";
+}
+  }
