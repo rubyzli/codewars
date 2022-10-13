@@ -21,13 +21,13 @@
           <a class="nav-link" href="#team">Team</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link" href=".">Week Plan</a>
+          <a class="nav-link" href="#containerWeek">Week Plan</a>
         </li>
         <li class="nav-item">
           <a class="nav-link" href="#">Difficulties</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link" href="#">Solutions</a>
+          <a class="nav-link" href="#containerSolution">Solutions</a>
         </li>
         <li class="nav-item">
           <a class="nav-link" href="#scoreboard">Scoreboard</a>
@@ -55,7 +55,7 @@
         <img src="../source/Dyre-Panama-Caffe-Small.JPG" class="card-img-top" alt="Peron drinking coffe on a plantage" style="margin-top: 1.5vh;">
         <div class="card-body">
           <h5 class="card-title">Dyre</h5>
-          <p class="card-text">Some quick example text to build on the Kata and make up the bulk of the card's content.</p>
+          <p class="card-text">Dyre Jean Pierre España was born on 28th of July 1985 in Guatemala City and was raised in Vienna.</p>
           <a href="../Dyre/indexDyre.html" class="btn btn-light">Go to page!</a>
         </div>
       </div>
@@ -89,17 +89,15 @@
     </div> 
     </div>
   </div>
-
-  <!-- //////////////////// CSS CARUSSEL SASCHA ////////////////////// -->
-
-  <section>
-    <h2 class="centerThisH2">WEEKLY CHALLENGES</h2>
+  <!-- //////////////////// CSS WEEK SASCHA ////////////////////// -->
+  <section id="containerWeek">
+    <h2 class="centerThisH2" style="padding-bottom: 3vh;">Week Plan</h2>
     <section class="slider-wrapper">
       <button class="slide-arrow" id="slide-arrow-prev">&#8249;</button>
       <button class="slide-arrow" id="slide-arrow-next">&#8250;</button>
       <ul class="slides-container" id="slides-container">
         <li class="slide">
-          <h3 class="centerThisH">MONDAY</h3>
+          <!-- <h3 class="centerThisH">MONDAY</h3> -->
           <div class="box container">
             <div class="col-md-6">
               <article>
@@ -129,7 +127,7 @@
           </div>
         </li>
         <li class="slide">
-          <h3 class="centerThisH">TUESDAY</h3>
+          <!-- <h3 class="centerThisH">TUESDAY</h3> -->
           <div class="box container">
             <div class="col-md-6">
               <article>
@@ -158,7 +156,7 @@
           </div>
         </li>
         <li class="slide">
-          <h3 class="centerThisH">WEDNESDAY</h3>
+          <!-- <h3 class="centerThisH">WEDNESDAY</h3> -->
           <div class="box container">
             <div class="col-md-6">
               <article>
@@ -188,7 +186,7 @@
           </div>
         </li>
         <li class="slide">
-          <h3 class="centerThisH">THURSDAY</h3>
+          <!-- <h3 class="centerThisH">THURSDAY</h3> -->
           <div class="box container">
             <div class="col-md-6">
               <article>
@@ -219,17 +217,20 @@
         </li>
       </ul>
     </section>
-
     <script src="script.js"></script>
   </section>
-
-<!-- //////////////////// CSS CARUSSEL SASCHA ////////////////////// -->
-
-  
-
-
-  
-  <!--****************************** KATA ******************************-->
+  <!--****************************** SOLUTIONS & LEARNING ******************************-->
+  <div id="containerSolution">
+    <h2 class="titleSolution">Solutions & Learning</h2>
+    <ul class="solutionList">
+      <li>Combining multiple events and functions in one click event.</li>
+      <li>Splice/Slice Array from back to front.</li>
+      <li>Use and change Bootstrap presets.</li>
+      <li>Working as a Team.</li>
+      <li>New CSS function.</li>
+    </ul>
+  </div>
+  <!--****************************** SCOREBOARD  ******************************-->
   <div class="containerKata">
     <h2 class="scoreboardH2" id="scoreboard">Scoreboard</h2>
     <p class="SubTitle-kata">Here you can choose a Kata. Please press the button and follow the instructions.</p>

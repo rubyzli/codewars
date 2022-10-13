@@ -1,14 +1,23 @@
+/* <!-- //////////////////// MENU ////////////////////// --> */
+.navbar{
+  overflow: hidden;
+  position: fixed;
+  top: 0;
+  width: 100%;
+}
 .navbar-brand {
   padding-left: 8vw;
   padding-right: 2vw;
 }
 
+/* <!-- //////////////////// INTRO H1 ////////////////////// --> */
 .katana-intro {
   display: grid;
   grid-template-columns: 0.1fr 1fr auto;
   align-items: center;
   height: 40vh;
   gap: 5vw;
+  padding-top: 10vh;
 }
 
 h1 {
@@ -20,6 +29,7 @@ h1 {
   margin-top: 4vw;
   margin-bottom: 4vw;
   grid-column: -1;
+  text-shadow: 2px 2px 2px rgba(0, 0, 0, 0.5);
 }
 .katana-svg {
   rotate: 140deg;
@@ -34,65 +44,32 @@ h1 {
   margin-top: 2vh;
 }
 
+/* <!-- //////////////////// STYLE FOR ALL ////////////////////// --> */
 h2 {
   font-size: 4rem;
   font-style: bold;
   font-family: Arial, Helvetica, sans-serif;
+  text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.5);
 }
 
 p {
   font-size: 1.1rem;
 }
 
-.containerKata {
-  background-color: black;
-  display: grid;
-  grid-template-columns: 0.2fr repeat(3, 1fr) 0.2fr;
-  grid-template-rows: repeat(3, 1fr);
-  gap: 2vw;
-  height: 40vh;
-  padding-top: 10vh;
-  padding-left: 20vw;
-  padding-right: 20vw;
-  padding-bottom: 40vh;
-  align-items: center;
+/* <!-- //////////////////// THE TEAM ////////////////////// --> */
+.p-5{
 }
-.scoreboardH2 {
-  grid-row: 1/1;
-  grid-column: 2/5;
-  text-align: center;
-  color: white;
-}
-.SubTitle-kata {
-  grid-row: 2;
-  grid-column: 2/5;
-  color: white;
-}
-
-.word-calc {
-  grid-row: 3;
-  grid-column: 2/3;
-  border-radius: 10px 100px / 120px;
-  height: 60px;
-  font-size: 18px;
-}
-.bmi {
-  grid-row: 3;
-  grid-column: 3/4;
-  border-radius: 10px 100px / 120px;
-  height: 60px;
-  font-size: 18px;
-}
-.remove {
-  grid-row: 3;
-  grid-column: 4/5;
-  border-radius: 10px 100px / 120px;
-  height: 60px;
-  font-size: 18px;
+#team {
+  padding-top: 6vh;
+  padding-bottom: 2vh;
+ /* text-shadow: 1px 1px 2px rgba(255, 255, 255, 0.5); */
 }
 
 /* <!-- //////////////////// CSS CARUSSEL SASCHA ////////////////////// --> */
-
+#containerWeek{
+  padding-top: 10vh;
+  padding-bottom: 10vh;
+}
 .slider-wrapper {
   margin: 1rem;
   position: relative;
@@ -170,8 +147,7 @@ p {
 
 .centerThisH2 {
   text-align: center;
-  font-size: 150%;
-  color: #ffffff;
+  color: #000000;
 }
 
 .centerThisH {
@@ -249,4 +225,66 @@ p {
   }
 }
 
-/* <!-- //////////////////// CSS CARUSSEL SASCHA ////////////////////// --> */
+/* <!-- //////////////////// SOLUTION ////////////////////// --> */
+#containerSolution{
+  padding-top: 10vh;
+  padding-bottom: 10vh;
+}
+.titleSolution{
+  text-align: center;
+}
+.solutionList{
+  text-align: center;
+}
+
+/* <!-- //////////////////// KATA EXAMPLE BUTTONS ////////////////////// --> */
+.containerKata {
+  background-color: black;
+  display: grid;
+  grid-template-columns: 0.2fr repeat(3, 1fr) 0.2fr;
+  grid-template-rows: repeat(3, 1fr);
+  gap: 2vw;
+  height: 40vh;
+  padding-top: 10vh;
+  padding-left: 20vw;
+  padding-right: 20vw;
+  padding-bottom: 40vh;
+  align-items: center;
+}
+
+.scoreboardH2 {
+  grid-row: 1/1;
+  grid-column: 2/5;
+  text-align: center;
+  color: white;
+}
+
+.SubTitle-kata {
+  grid-row: 2;
+  grid-column: 2/5;
+  color: white;
+}
+
+.word-calc {
+  grid-row: 3;
+  grid-column: 2/3;
+  border-radius: 10px 100px / 120px;
+  height: 60px;
+  font-size: 18px;
+}
+
+.bmi {
+  grid-row: 3;
+  grid-column: 3/4;
+  border-radius: 10px 100px / 120px;
+  height: 60px;
+  font-size: 18px;
+}
+
+.remove {
+  grid-row: 3;
+  grid-column: 4/5;
+  border-radius: 10px 100px / 120px;
+  height: 60px;
+  font-size: 18px;
+}
