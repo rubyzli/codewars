@@ -1,0 +1,63 @@
+
+
+.card-body {
+    display: flex;
+    flex-direction: column;
+    align-content:flex-start
+}
+
+.card-text {
+    margin-top: 60px;
+   
+}
+
+.container {
+    display: flex;
+    flex-direction: row;
+}
+
+.nav {
+    overflow: hidden;
+}
+
+.languages {
+    display: flex;
+    flex-direction: row;
+}
+
+.langPic {
+    width: 60px;
+    height: 60px;
+    margin-bottom: 50px;
+    margin: 30px;
+}
+
+.container2 {
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    width: 900px;
+    margin-left: 280px;
+    padding: 30px;
+    margin-bottom: 100px;
+    border-radius: 1%;
+}
+
+.main {
+    justify-content: center;
+    align-content: center;
+
+}
+
+#footer {
+    display: flex;
+    flex-direction: row;
+    align-content: center;
+    justify-content: center;
+}
+
+.footer {
+    margin-top: 10px;
+    align-self: center;
+}
+

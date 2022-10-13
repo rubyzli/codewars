@@ -24,7 +24,7 @@
           <a class="nav-link" href="#containerWeek">Week Plan</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link" href="#">Difficulties</a>
+          <a class="nav-link" href="#difficult">Difficulties</a>
         </li>
         <li class="nav-item">
           <a class="nav-link" href="#containerSolution">Solutions</a>
@@ -87,7 +87,7 @@
         <div class="card-body">
           <h5 class="card-title">András</h5>
           <p class="card-text">Some quick example text to build on the Kata  and make up the bulk of the card's content.</p>
-          <a href="#" class="btn btn-light">Go to page!</a>
+          <a href="../Andras/Andras.html" class="btn btn-light">Go to page!</a>
         </div>
       </div>
     </div> 
@@ -223,6 +223,44 @@
     </section>
     <script src="script.js"></script>
   </section>
+
+  <!--****************************** DIFFICULTIES ******************************-->
+  <div id="difficult">
+    <h2 class="scoreText">Difficulties</h2>
+    <!--Card1-->
+    <div class="cards">
+      <div class="card1" style="width: 440px">
+        <img src="../source/1.png" class="card-img-top" alt="BMI image">
+        <div class="card-body">
+          <p class="card-text1">We had to write a function which calculates the <strong>B</strong>ody <strong>M</strong>ass
+            <strong>I</strong>ndex, when <strong>BMI</strong> = weight / height2 and give a result (<em>"Underweight",
+              "Normal", "Overweight"</em> or <em>"Obese"</em>).We made a new <strong>Variable</strong> which stores weight /
+            (height x height). Than we compared the result "index" with the given examples! </p>
+        </div>
+      </div>
+      <!--Card2-->
+      <div class="card2" style="width: 470px;">
+        <img src="../source/2.png" class="card-img-top" alt="...">
+        <div class="card-body">
+          <p class="card-text2">We made a for loop which counts and compares two indexes and further for loop to iterate
+            through the input sentence and counts the score through the charset system(long story) and then return the
+            highest scoring word.</p>
+        </div>
+      </div>
+      <!--Card3-->
+      <div class="card3" style="width: 470px">
+        <img src="../source/3.png" class="card-img-top" alt="...">
+        <div class="card-body">
+          <p class="card-text3">By this exercise we made function that looped through the array. With an if statement we
+            compared arr[j] with '!'. If the given word included any '!' we spliced it out from the array! At the end we
+            returned a 'joined' array.</p>
+        </div>
+      </div>
+    </div>
+  </div>
+  <script src="../js/bootstrap.bundle.js"></script>
+  <script src="index.js"></script>
+
   <!--****************************** SOLUTIONS & LEARNING ******************************-->
   <div id="containerSolution">
     <h2 class="titleSolution">Solutions & Learning</h2>
@@ -234,9 +272,11 @@
       <li>New CSS function.</li>
     </ul>
   </div>
+
   <!--****************************** SCOREBOARD  ******************************-->
-  <div class="containerKata">
-    <h2 class="scoreboardH2" id="scoreboard">Scoreboard</h2>
+  <div class="containerKata" id="scoreboard">
+    <h2 class="scoreboardH2">Scoreboard</h2>
+    <h3 class="scorePointsH3">honor points : 44+3+39+51=<strong class="honorPkt">137</strong></h3>
     <p class="SubTitle-kata">Here you can choose a Kata. Please press the button and follow the instructions.</p>
     <button class="word-calc">Word Calculator</button>
     <button class="bmi">Calculate BMI</button>

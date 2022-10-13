@@ -1,0 +1,277 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Codewars</title>
+    <link rel="stylesheet" href="../css/bootstrap.css">
+    <link rel="stylesheet" href="style-kata-main.css">
+</head>
+<body>
+  <!--****************************** MENU ******************************-->
+  <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+    <a class="navbar-brand" href="index.html">Codewars</a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarText" aria-controls="navbarText" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarText">
+      <ul class="navbar-nav mr-auto">
+        <li class="nav-item active">
+          <a class="nav-link" href="#team">Team</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href=".">Week Plan</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#">Difficulties</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#">Solutions</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#scoreboard">Scoreboard</a>
+        </li>
+      </ul>
+    </div>
+  </nav>
+  <!--****************************** KATANA H1 ******************************-->
+  <div class="katana-intro">
+    <img class="katana-svg" src="../source/Katana.svg" alt="Katana sword">
+    <p class="subTitle"><strong>Welcome to the matrix.</strong><br>
+      Your goal is to liberate yourself out of it.<br>
+      Do you have the sharpest KATANA to do so?</p>
+      <h1>KATANA</h1>
+  </div>
+  <!--****************************** THE TEAM ******************************-->
+  <div
+    class="p-5 text-center"
+    style="
+      background-color: black;
+    ">
+  <h2 style="color: white" id="team">The Team</h2>
+    <div class="row">
+      <div class="card text-white bg-dark mb-3" style="width: 18rem; margin: 25px">
+        <img src="../source/Dyre-Panama-Caffe-Small.JPG" class="card-img-top" alt="Peron drinking coffe on a plantage" style="margin-top: 1.5vh;">
+        <div class="card-body">
+          <h5 class="card-title">Dyre</h5>
+          <p class="card-text">Some quick example text to build on the Kata and make up the bulk of the card's content.</p>
+          <a href="../Dyre/indexDyre.html" class="btn btn-light">Go to page!</a>
+        </div>
+      </div>
+
+      <div class="card text-white bg-dark mb-3" style="width: 18rem; margin: 25px">
+        <img src="../source/Sascha1.jpg" class="card-img-top" alt="..." style="margin-top: 1.5vh;">
+        <div class="card-body">
+          <h5 class="card-title">Sascha</h5>
+          <p class="card-text">He is after all the EX-BOSS <br>
+            Makes his tattoos himself<br>
+            Is much too spontaneous and motivated<br>
+            Character: sympathetic<br>
+            Not married</p>
+          <a href="../Sascha Tree/index.html" class="btn btn-light">Go to page!</a>
+        </div>
+      </div>
+
+      <div class="card text-white bg-dark mb-3" style="width: 18rem; margin: 25px">
+        <img src="../Jessy/jesss.JPG" style="margin-top: 40px;" alt="..." style="margin-top: 1.5vh;">
+        <div class="card-body">
+          <h5 class="card-title">Jessica</h5>
+          <p class="card-text">Some quick example text to build on the Kata  and make up the bulk of the card's content.</p>
+          <a href="../Jessy/jess.html" class="btn btn-light">Go to page!</a>
+        </div>
+      </div>
+
+      <div class="card text-white bg-dark mb-3" style="width: 18rem; margin: 25px">
+        <img src="../source/Andras.jpg" class="card-img-top" alt="..." style="margin-top: 1.5vh;">
+        <div class="card-body">
+          <h5 class="card-title">András</h5>
+          <p class="card-text">Been too long in the Matrix! I met with somebody and he offered me the reality. Then I grabbed a Katana...</p>
+          <a href="../Andras/Andras.html" class="btn btn-light">Enter the Matrix!</a>
+        </div>
+      </div>
+    </div> 
+    </div>
+  </div>
+
+  <!-- //////////////////// CSS CARUSSEL SASCHA ////////////////////// -->
+
+  <section>
+    <h2 class="centerThisH2">WEEKLY CHALLENGES</h2>
+    <section class="slider-wrapper">
+      <button class="slide-arrow" id="slide-arrow-prev">&#8249;</button>
+      <button class="slide-arrow" id="slide-arrow-next">&#8250;</button>
+      <ul class="slides-container" id="slides-container">
+        <li class="slide">
+          <h3 class="centerThisH">MONDAY</h3>
+          <div class="box container">
+            <div class="col-md-6">
+              <article>
+                <h3>FIRST DAY</h3>
+                <img
+                  class="weekImg1"
+                  src="/source/codewars1.png"
+                  alt=""
+                />
+                <img
+                  class="weekImg2"
+                  src="/source/github.png"
+                  alt=""
+                />
+              </article>
+            </div>
+
+            <div class="col-md-6">
+              <article>
+                <img
+                  class="imgRight"
+                  src="/source/codecool.png"
+                  alt="snip1"
+                />
+              </article>
+            </div>
+          </div>
+        </li>
+        <li class="slide">
+          <h3 class="centerThisH">TUESDAY</h3>
+          <div class="box container">
+            <div class="col-md-6">
+              <article>
+                <h3>SECOND DAY</h3>
+                <img
+                  class="weekImg1"
+                  src="/source/codewars1.png"
+                  alt=""
+                />
+                <img
+                  class="weekImg2"
+                  src="/source/codewars1.png"
+                  alt=""
+                />
+              </article>
+            </div>
+            <div class="col-md-6">
+              <article>
+                <img
+                  class="imgRight"
+                  src="/source/codecool.png"
+                  alt="snip1"
+                />
+              </article>
+            </div>
+          </div>
+        </li>
+        <li class="slide">
+          <h3 class="centerThisH">WEDNESDAY</h3>
+          <div class="box container">
+            <div class="col-md-6">
+              <article>
+                <h3>THIRD DAY</h3>
+                <img
+                  class="weekImg1"
+                  src="/source/css_html.png"
+                  alt=""
+                />
+                <img
+                  class="weekImg2"
+                  src="/source/codewars1.png"
+                  alt=""
+                />
+              </article>
+            </div>
+
+            <div class="col-md-6">
+              <article>
+                <img
+                  class="imgRight"
+                  src="/source/codecool.png"
+                  alt="snip1"
+                />
+              </article>
+            </div>
+          </div>
+        </li>
+        <li class="slide">
+          <h3 class="centerThisH">THURSDAY</h3>
+          <div class="box container">
+            <div class="col-md-6">
+              <article>
+                <h3>FOURTH DAY</h3>
+                <img
+                  class="weekImg1"
+                  src="/source/css_html.png"
+                  alt=""
+                />
+                <img
+                  class="weekImg2"
+                  src="/source/JavaScript-Logo.png"
+                  alt=""
+                />
+              </article>
+            </div>
+
+            <div class="col-md-6">
+              <article>
+                <img
+                  class="imgRight"
+                  src="/source/codecool.png"
+                  alt="snip1"
+                />
+              </article>
+            </div>
+          </div>
+        </li>
+      </ul>
+    </section>
+
+    <script src="script.js"></script>
+  </section>
+
+<!-- //////////////////// CSS CARUSSEL SASCHA ////////////////////// -->
+
+  
+
+
+  
+<!--****************************** KATA ******************************-->
+<div class="containerKata">
+  <h2 class="scoreboardH2" id="scoreboard">Scoreboard</h2>
+  <p class="SubTitle-kata">Here you can choose a Kata. Please press the button and follow the instructions.</p>
+  <button class="bmi">Calculate BMI</button>
+  <button class="word-calc">Word Calculator</button>
+  <button class="remove">Remove letters</button>
+</div>
+
+<!--****************************** DIFFICULTIES ******************************-->
+  <h2 class="scoreText">Difficulties</h2>
+  <!--Card1-->
+  <div class="cards">
+    <div class="card1" style="width: 440px">
+      <img src="img/2.png" class="card-img-top" alt="BMI image">
+      <div class="card-body">
+          <p class="card-text1">We had to write a function which calculates the <strong>B</strong>ody <strong>M</strong>ass <strong>I</strong>ndex, when <strong>BMI</strong> = weight / height2 and give a result (<em>"Underweight", "Normal", "Overweight"</em> or <em>"Obese"</em>).We made a new <strong>Variable</strong> which stores weight / (height x height). Than we compared the result "index" with the given examples! </p>
+      </div>
+    </div>
+
+    <!--Card2-->
+    <div class="card2" style="width: 470px;">
+      <img src="img/3.png" class="card-img-top" alt="...">
+      <div class="card-body">
+        <p class="card-text2">We made a for loop which counts and compares two indexes and further for loop to iterate through the input sentence and counts the score through the charset system(long story) and then return the highest scoring word.</p>
+      </div>
+    </div>
+
+    <!--Card3-->
+    <div class="card3" style="width: 470px">
+    <img src="img/1.png" class="card-img-top" alt="...">
+    <div class="card-body">
+      <p class="card-text3">By this exercise we made function that looped through the array. With an if statement we compared arr[j] with '!'. If the given word included any '!' we spliced it out from the array! At the end we returned a 'joined' array.</p>
+    </div>
+  </div>
+  </div>
+
+
+<script src="../js/bootstrap.bundle.js"></script>
+<script src="index.js"></script>
+</body>
+</html>

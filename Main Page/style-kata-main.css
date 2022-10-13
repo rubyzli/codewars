@@ -1,9 +1,24 @@
+/* <!-- //////////////////// STYLE FOR ALL ////////////////////// --> */
+h2 {
+  font-size: 4rem;
+  font-style: bold;
+  font-family: Arial, Helvetica, sans-serif;
+  text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.5);
+}
+p {
+  font-size: 1.2rem;
+}
+li {
+  font-size: 1.2rem;
+}
+
 /* <!-- //////////////////// MENU ////////////////////// --> */
 .navbar{
   overflow: hidden;
   position: fixed;
   top: 0;
   width: 100%;
+  z-index: 999;
 }
 .navbar-brand {
   padding-left: 8vw;
@@ -19,7 +34,6 @@
   gap: 5vw;
   padding-top: 10vh;
 }
-
 h1 {
   font-size: 6rem;
   font-style: bold;
@@ -44,20 +58,9 @@ h1 {
   margin-top: 2vh;
 }
 
-/* <!-- //////////////////// STYLE FOR ALL ////////////////////// --> */
-h2 {
-  font-size: 4rem;
-  font-style: bold;
-  font-family: Arial, Helvetica, sans-serif;
-  text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.5);
-}
-
-p {
-  font-size: 1.1rem;
-}
-
 /* <!-- //////////////////// THE TEAM ////////////////////// --> */
 .p-5{
+  padding-bottom: 10vh;
 }
 #team {
   padding-top: 6vh;
@@ -68,14 +71,13 @@ p {
 /* <!-- //////////////////// CSS CARUSSEL SASCHA ////////////////////// --> */
 #containerWeek{
   padding-top: 10vh;
-  padding-bottom: 10vh;
+  padding-bottom: 4vh;
 }
 .slider-wrapper {
   margin: 1rem;
   position: relative;
   overflow: hidden;
 }
-
 .slides-container {
   height: calc(50vh - 2rem);
   width: 100%;
@@ -86,7 +88,6 @@ p {
   margin: 0;
   padding: 0;
 }
-
 .slide-arrow {
   position: absolute;
   display: flex;
@@ -104,18 +105,15 @@ p {
   transition: opacity 100ms;
   color: white;
 }
-
 .slide-arrow:hover,
 .slide-arrow:focus {
   opacity: 1;
 }
-
 #slide-arrow-prev {
   left: 0;
   padding-left: 0.25rem;
   border-radius: 0 2rem 2rem 0;
 }
-
 #slide-arrow-next {
   right: 0;
   padding-left: 0.75rem;
@@ -127,34 +125,27 @@ p {
   height: 100%;
   flex: 1 0 100%;
 }
-
 .slide:nth-child(1) {
   background-color: #ffffff;
 }
-
 .slide:nth-child(2) {
   background-color: #ffffff;
 }
-
 .slide:nth-child(3) {
   background-color: #ffffff;
   margin: 0;
 }
-
 .slide:nth-child(4) {
   background-color: #ffffff;
 }
-
 .centerThisH2 {
   text-align: center;
   color: #000000;
 }
-
 .centerThisH {
   text-align: center;
   font-size: 250%;
 }
-
 .container {
   display: flex;
   width: 100%;
@@ -178,7 +169,6 @@ p {
   box-shadow: inset 0 -3em 3em rgba(0, 0, 0, 0.1), 0 0 0 2px rgb(255, 255, 255),
     0.3em 0.3em 1em rgba(0, 0, 0, 0.3);
 }
-
 .imgRight {
   height: 300px;
   border-radius: 25px;
@@ -224,6 +214,53 @@ p {
     width: 8.33333333%;
   }
 }
+/* <!-- //////////////////// DIFFICULT ////////////////////// --> */
+#difficult{
+  padding-top: 10vh;
+  background-color: rgb(0, 0, 0);
+  padding-bottom: 10vh;
+}
+.scoreText {
+  color: white;
+  text-align: center;
+  font-weight: bold;
+  padding-bottom: 4vh;
+}
+.cards {
+  padding-left: 4vw;
+  padding-right: 4vw;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  gap: 4vw;
+}
+.card1 {
+  align-self: center;
+}
+.card2 {
+  align-self: center;
+}
+.card3 {
+  align-self: center;
+}
+.card-text1 {
+  padding-top: 3vh;
+  font-size: 18px;
+  text-align: center;
+  color: white;
+}
+.card-text2 {
+  padding-top: 3vh;
+  font-size: 19px;
+  text-align: center;
+  color: white;
+}
+.card-text3 {
+  padding-top: 3vh;
+  font-size: 20px;
+  text-align: center;
+  color: white;
+}
 
 /* <!-- //////////////////// SOLUTION ////////////////////// --> */
 #containerSolution{
@@ -232,57 +269,64 @@ p {
 }
 .titleSolution{
   text-align: center;
+  padding-bottom: 2vh;
 }
 .solutionList{
   text-align: center;
 }
 
-/* <!-- //////////////////// KATA EXAMPLE BUTTONS ////////////////////// --> */
+/* <!-- //////////////////// SCOREBOARD KATA EXAMPLE BUTTONS ////////////////////// --> */
 .containerKata {
   background-color: black;
   display: grid;
   grid-template-columns: 0.2fr repeat(3, 1fr) 0.2fr;
-  grid-template-rows: repeat(3, 1fr);
+  grid-template-rows: repeat(4, 1fr);
   gap: 2vw;
   height: 40vh;
   padding-top: 10vh;
   padding-left: 20vw;
   padding-right: 20vw;
-  padding-bottom: 40vh;
+  padding-bottom: 60vh;
   align-items: center;
 }
-
 .scoreboardH2 {
   grid-row: 1/1;
   grid-column: 2/5;
   text-align: center;
   color: white;
 }
-
+.scorePointsH3{
+  grid-row: 2/2;
+  grid-column: 2/5;
+  text-align: center;
+  color: white;
+  padding-bottom: 2vh;
+}
+.honorPkt{
+  font-size: 2.2rem;
+}
 .SubTitle-kata {
-  grid-row: 2;
+  grid-row: 3;
   grid-column: 2/5;
   color: white;
+  text-align: center;
 }
-
 .word-calc {
-  grid-row: 3;
+  grid-row: 4;
   grid-column: 2/3;
   border-radius: 10px 100px / 120px;
   height: 60px;
   font-size: 18px;
 }
-
 .bmi {
-  grid-row: 3;
+  grid-row: 4;
   grid-column: 3/4;
   border-radius: 10px 100px / 120px;
   height: 60px;
   font-size: 18px;
 }
-
 .remove {
-  grid-row: 3;
+  grid-row: 4;
   grid-column: 4/5;
   border-radius: 10px 100px / 120px;
   height: 60px;

@@ -1,0 +1,53 @@
+
+.cards {
+    display:grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 800px;
+    margin-block-start: 15%;
+    margin-left: 6%;
+    margin-right: 6%;
+    
+}
+
+.card-text1{
+    font-size: 25px;
+}
+.card3{
+/*margin-block-start: 5%;
+    margin-left: 13%;
+    margin-right: 13%;
+    margin-top : 10%;*/
+    align-self: center;
+    margin-left: 13%;
+    margin-right: 13%;
+}    
+
+.card-text{
+    font-size: 40px;
+    font-weight: bold;
+}
+
+.navbar{
+    overflow: hidden;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    /*background-image: url("matrix10.gif");*/
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
