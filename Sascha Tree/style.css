@@ -1,5 +1,5 @@
 body {
-  font: small/1.6em Verdana, Helvetica, Arial, sans-serif;
+  font: small/1.6em Helvetica, Arial, sans-serif;
   /* background-image: url(https://cdn.pixabay.com/photo/2019/01/02/02/37/background-3907905_1280.jpg);
     background-repeat: no-repeat;
     background-attachment: fixed;
@@ -41,24 +41,26 @@ h2 {
   line-height: 1.9em;
   font-style: italic;
   font-family: Georgia, "Times New Roman", Times, serif;
-  color: #444444;
-  border: 1px dashed white;
-  background: rgba(0, 0, 0, 0.5);
-  color: #f1f1f1;
+  /* max-width: 350px; */
   padding: 25px;
   padding-left: 80px;
   margin: 10px;
-  margin-left: 150px;
-  margin-right: 350px;
+  margin-left: 250px;
+  margin-right: 500px;
   background-repeat: no-repeat;
   background-position: top left;
   text-align: center;
+  padding: 10px;
+  box-shadow: inset 0 -15em 15em rgba(0, 0, 0, 0.3),
+    0.3em 0.3em 1em rgba(0, 0, 0, 0.3);
+  border-radius: 100px;
 }
 
 #me {
-  border: 1px dashed white;
-  background: rgba(0, 0, 0, 0.5);
-  color: #f1f1f1;
+  padding: 10px;
+  box-shadow: inset 0 -15em 15em rgba(0, 0, 0, 0.3),
+    0.3em 0.3em 1em rgba(0, 0, 0, 0.3);
+  border-radius: 45px;
   width: 200px;
   margin-right: 20px;
   margin-bottom: 10px;
@@ -70,7 +72,7 @@ h2 {
 }
 
 #footer {
-  font-size: 50%;
+  font-size: 80%;
   text-align: center;
   line-height: normal;
   margin-top: 30px;
@@ -112,8 +114,15 @@ a:visited {
 #roundMe {
   border-radius: 25px;
   margin-top: 10px;
+  padding: 10px;
+  box-shadow: inset 0 -15em 15em rgba(0, 0, 0, 0.1),
+    0.3em 0.3em 1em rgba(0, 0, 0, 0.3);
 }
 
 #removeDots {
   list-style: none;
+}
+
+#pMotivation {
+  font-size: 120%;
 }
