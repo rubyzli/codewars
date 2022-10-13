@@ -43,3 +43,19 @@
     border-radius: 1%;
 }
 
+.main {
+    justify-content: center;
+    align-content: center;
+
+}
+
+#footer {
+    display: flex;
+    flex-direction: row;
+}
+
+.footer {
+    align-content: center;
+    justify-content: center;
+}
+
