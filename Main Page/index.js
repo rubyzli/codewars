@@ -10,3 +10,4 @@ const buttonRemove = document.querySelector(".remove");
 buttonRemove.addEventListener("click", function () {
     window.location.href = "../Kata-remove-letters/kata-remove-letters.html";
 });
+
