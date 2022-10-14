@@ -6,18 +6,44 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style-word-calc.css">
     <link rel="stylesheet" href="../css/bootstrap.css">
-    <link rel="stylesheet" href="style-kata-main.css">
+    <link rel="stylesheet" href="../Main Page/style-kata-main.css">
     <title>Word Calculator</title>
 </head>
 <body>
-    <div class="title-word">
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+        <a class="navbar-brand" href="../Main Page/index.html">Codewars</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarText"
+            aria-controls="navbarText" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarText">
+            <ul class="navbar-nav mr-auto">
+                <li class="nav-item active">
+                    <a class="nav-link" href="../Main Page/index.html#team">Team</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="../Main Page/index.html#containerWeek">Week Plan</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="../Main Page/index.html#difficult">Difficulties</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="../Main Page/index.html#containerSolution">Solutions</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="../Main Page/index.html#scoreboard">Scoreboard</a>
+                </li>
+            </ul>
+        </div>
+    </nav>
+    <div class="container-word">
         <h1>Word Calculator</h1>
-    </div>
-    <div class="beschreibung">
-        <p>Please enter a sentence. <br>
-            We calculate which word in the sentence gets the most points. <br>
-            For the calculation we use 1 point for A and 2 points for B etc.
-        </p>
+        <div class="beschreibung">
+            <p>Please enter a sentence. <br>
+                We calculate which word in the sentence gets the most points. <br>
+                For the calculation we use 1 point for A and 2 points for B etc.
+            </p>
+        </div>
     </div>
 </body>
 <script src="../kata.js"></script>

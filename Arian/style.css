@@ -1,0 +1,45 @@
+body {
+    background-color: black;
+}
+.cmon {  
+    font-size: 8rem;
+    height: 800px;
+    color: white;
+    background-color: black;
+}
+.start {
+    font-size: 5rem;
+    color: white
+    
+}
+.emptyprank {
+    background-image: linear-gradient(black,white);
+    height: 1500px;
+}
+.emptyprank2 {
+    background-image: linear-gradient(white,rgb(74, 74, 248)
+    );
+    height: 1500px;
+}
+.emptyprank3 {
+    background-image: linear-gradient(rgb(74, 74, 248),rgb(62, 33, 88));
+    height: 1500px;
+}
+
+.presentation {
+    background-color: rgb(62, 33, 88);
+}
+
+.introduction {
+    text-align:  center;
+    font-size: larger;
+    color: rgb(175, 247, 223);
+}
+.me {
+    padding: 20px;
+    padding-left: 5vw;
+}
+
+.bio {
+    display: flex;
+}
