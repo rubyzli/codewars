@@ -227,8 +227,8 @@ h1 {
   padding-bottom: 4vh;
 }
 .cards {
-  padding-left: 4vw;
-  padding-right: 4vw;
+  padding-left: 5vw;
+  padding-right: 5vw;
   display: flex;
   flex-direction: row;
   justify-content: center;
@@ -245,20 +245,17 @@ h1 {
 }
 .card-text1 {
   padding-top: 3vh;
-  font-size: 18px;
-  text-align: center;
+  text-align: justify;
   color: white;
 }
 .card-text2 {
   padding-top: 3vh;
-  font-size: 19px;
-  text-align: center;
+  text-align: justify;
   color: white;
 }
 .card-text3 {
   padding-top: 3vh;
-  font-size: 20px;
-  text-align: center;
+  text-align: justify;
   color: white;
 }
 
