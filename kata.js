@@ -1,10 +1,5 @@
 //******************************************* Kata Word Score *******************************************
 function high(x) {
-
-    let abc = [
-        "a", "b", "c", "d", "e", "f", "g", "h", "i", "j", "k", "l", "m", "n", "o", "p", "q", "r", "s", "t", "u", "v", "w", "x", "y", "z",
-    ];
-  
   const words = x.split(" ");
 
   const alphabetMap = {};
@@ -14,12 +9,9 @@ function high(x) {
   }
 
   let highestScoringWord = { word: "", score: 0 };
-  console.log(words);
   words.forEach((w) => {
     const chars = w.split("");
-    console.log(w);
     const sumOfChars = chars.reduce(function (count, char) {
-      console.log(count, char, char.charCodeAt());
       return count + alphabetMap[char.charCodeAt()];
     }, 0);
 
