@@ -26,17 +26,20 @@ function createBMI(bmi) {
     newParagraph.appendChild(newContent);
     
     // add the newly created element and its content into the DOM
-    const currentParagraph = document.getElementById("p2");
-    
-    document.body.insertBefore(newParagraph, currentParagraph);
+    const container = document.querySelector(".container-bmi");
+    container.appendChild(newParagraph);
 }
 
 buttonSubmit.addEventListener("click", function addElement() {
-    
     let heightValue = heightCm.value;
     let weightValue = weightKg.value;
     
-    if (heightValue === "0" || weightValue === "0" || heightValue === "" || weightValue === "" ) {
+    if (
+        heightValue === "0" ||
+        weightValue === "0" ||
+        heightValue === "" ||
+        weightValue === ""
+    ) {
         alert("Please enter your height and weight");
     } else {
         createBMI(getBMI(heightValue, weightValue));

@@ -1,28 +1,23 @@
-const sentence = document.querySelector("#sentence");
-const char = document.querySelector("#specialCharacter");
+const inputSentenceEl = document.querySelector("#sentence");
+const inputCharEl = document.querySelector("#specialCharacter");
 const subButton = document.querySelector("#submit"); 
 
 function removeLetters(sentence, char) {
-    let arr = [];
-
-    for(let i = 0; i<sentence.length; i++){
-        
-        arr.push(sentence[i]);
-    }
+    let sentenceChars = sentence.split("");
     
-    for(let j = arr.length-1; j>=0; j--){
-
-        if(arr[j] === char){
-            arr.splice(j, 1);
+    for(let i = sentenceChars.length-1; i>=0; i--){
+        if(sentenceChars[i] === char){
+            sentenceChars.splice(i, 1);
         }
     }
-     let newArr = arr.join(' ');
-     document.querySelector('#answer').innerText = newArr    
+
+    let result = sentenceChars.join(' ');
+    document.querySelector('#answer').innerText = result;
 };
 
 subButton.addEventListener("click", function(){
     let sentVal = sentence.value;
-    let charVal = char.value;
+    let charVal = inputCharEl.value;
     removeLetters(sentVal, charVal);
 });
 
