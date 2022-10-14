@@ -39,6 +39,6 @@ buttonSubmit.addEventListener("click", function addElement() {
     if (heightValue === "0" || weightValue === "0" || heightValue === "" || weightValue === "" ) {
         alert("Please enter your height and weight");
     } else {
-        document.body.onload = createBMI(getBMI(heightValue, weightValue));
+        createBMI(getBMI(heightValue, weightValue));
     }
 });
