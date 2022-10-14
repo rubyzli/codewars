@@ -1,4 +1,28 @@
 body{
-    background-color: rgb(10, 10, 10);
-    color: rgb(245, 255, 255);
+    background-color: rgb(1, 1, 0);
+    color: rgb(0, 1, 1);
+    display: flex;
+    justify-content: center;
+    margin-top: 150px;
+    
+    
+}
+
+#funcBackground {
+    background-color: white ;
+    padding: 50px;
+    border-top-right-radius: 10%;
+    border-bottom-right-radius: 10%;
+    width: 395px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+#code {
+    width: 600px;
+    height: 505px;
+    border-top-left-radius: 10%;
+    border-bottom-left-radius: 10%;
 }

@@ -4,17 +4,26 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="style-word-calc.css">
-    <title>Document</title>
+    <link rel="stylesheet" href="style-remove-letters.css">
+    <title>Remove letters</title>
+    <script src="./remove-letters.js" defer></script>
 </head>
 <body>
-    <div class="title-remove-letters">
-        <h1>Remove letters that you dont like.</h1>
+    <div>
+        <img src="./codeSnippet1.png" id="code" alt="">
     </div>
-    <div class="beschreibung">
-        <p>Please enter a sentence with incorrect special characters. eg !</p>
-        <p>Please enter the special character you want to remove from your sentence.</p>
+    <div id="funcBackground">
+        <h1 class="title-remove-letters">Letter remover <span>✨</span></h1>
+        <div class="description">
+            <p>Enter something funny:</p>
+            <input type="text" id="sentence">
+            <p>Enter a letter that you don't like:</p>
+            <input type="text" id="specialCharacter">
+            <button id="submit">Submit!</button>  
+
+            <p>Here your sentence: <span id="answer"></span></p>
+        </div>
     </div>
 </body>
-<script src="../kata.js"></script>
+
 </html>
