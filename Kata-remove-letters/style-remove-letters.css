@@ -1,3 +1,31 @@
+body{
+    background-color: black;
+    color: rgb(0, 1, 1);
+    display: flex;
+    justify-content: center;
+    margin-top: 150px;
+}
+
+#funcBackground {
+    background-color: white ;
+    padding: 50px;
+    border-top-right-radius: 10%;
+    border-bottom-right-radius: 10%;
+    width: 395px;
+    height: 405px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+#code {
+    width: 600px;
+    height: 505px;
+    border-top-left-radius: 10%;
+    border-bottom-left-radius: 10%;
+}
+
 .container-word {
     padding-top: 10vh;
     padding-left: 10vw;
@@ -7,16 +35,3 @@
     padding-bottom: 70vh;
 }
 
-/* <!-- //////////////////// MENU ////////////////////// --> */
-.navbar {
-    overflow: hidden;
-    position: fixed;
-    top: 0;
-    width: 100%;
-    z-index: 999;
-}
-
-.navbar-brand {
-    padding-left: 8vw;
-    padding-right: 2vw;
-}
