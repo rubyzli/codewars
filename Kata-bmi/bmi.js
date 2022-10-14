@@ -36,12 +36,9 @@ buttonSubmit.addEventListener("click", function addElement() {
     let heightValue = heightCm.value;
     let weightValue = weightKg.value;
     
-    if ((heightValue === "0" || heightValue === "") && (weightValue === "0" || weightValue === "")) {
+    if (heightValue === "0" || weightValue === "0" || heightValue === "" || weightValue === "" ) {
         alert("Please enter your height and weight");
     } else {
-        console.log("test");
-        createBMI(getBMI(heightValue, weightValue));
-        console.log(createBMI(getBMI()))
-        document.body.onload = addElement;
+        document.body.onload = createBMI(getBMI(heightValue, weightValue));
     }
 });
