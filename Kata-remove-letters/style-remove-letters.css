@@ -1,11 +1,9 @@
 body{
-    background-color: rgb(1, 1, 0);
+    background-color: black;
     color: rgb(0, 1, 1);
     display: flex;
     justify-content: center;
     margin-top: 150px;
-    
-    
 }
 
 #funcBackground {
@@ -14,6 +12,7 @@ body{
     border-top-right-radius: 10%;
     border-bottom-right-radius: 10%;
     width: 395px;
+    height: 405px;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -26,3 +25,13 @@ body{
     border-top-left-radius: 10%;
     border-bottom-left-radius: 10%;
 }
+
+.container-word {
+    padding-top: 10vh;
+    padding-left: 10vw;
+    background-color: rgb(10, 10, 10);
+    color: rgb(245, 255, 255);
+    font-family: Arial, Helvetica, sans-serif;
+    padding-bottom: 70vh;
+}
+
