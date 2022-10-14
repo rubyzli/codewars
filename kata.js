@@ -1,23 +1,17 @@
 //******************************************* Kata Word Score *******************************************
 function high(x) {
-    //   let x = "hey hello hola";
+
     let abc = [
         "a", "b", "c", "d", "e", "f", "g", "h", "i", "j", "k", "l", "m", "n", "o", "p", "q", "r", "s", "t", "u", "v", "w", "x", "y", "z",
     ];
   
   const words = x.split(" ");
 
-  // create empty obj
   const alphabetMap = {};
 
   for (let i = "a".charCodeAt(), j = 1; i <= "z".charCodeAt(); i++, j++) {
     alphabetMap[i] = j;
   }
-  /**
-     you can check the charCodeAt = value of variable 
-     alphabetMap[i = 97 ] = j = 1;
-     console.log(alphabetMap);
-     */
 
   let highestScoringWord = { word: "", score: 0 };
   console.log(words);
@@ -86,16 +80,12 @@ function removeExclamationMarks(s) {
     for(let i = 0; i<s.length; i++){
         arr.push(s[i]);
     }
-    console.log(arr)
-    console.log(arr.includes("!"));
-    //while(arr.includes("!")){
         for(let j = arr.length-1; j>=0; j--){
             if(arr[j] === '!'){
                 arr.splice(j, 1);
                 console.log(arr)
             }
         }
-        //}
         return arr.join('');
     }
     
