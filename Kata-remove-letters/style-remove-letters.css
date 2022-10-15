@@ -3,6 +3,7 @@ body{
     color: rgb(0, 1, 1);
     display: flex;
     justify-content: center;
+    align-items: center;
     margin-top: 150px;
 }
 
@@ -20,8 +21,8 @@ body{
 }
 
 #code {
-    width: 600px;
-    height: 505px;
+
+    height: 405px;
     border-top-left-radius: 10%;
     border-bottom-left-radius: 10%;
 }
@@ -35,3 +36,23 @@ body{
     padding-bottom: 70vh;
 }
 
+.navbar {
+    overflow: hidden;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 999;
+}
+
+.navbar-brand {
+    padding-left: 8vw;
+    padding-right: 2vw;
+}
+
+#submit{
+    margin-top: 1vh;
+}
+
+.resultText{
+    margin-top: 1vh;
+}

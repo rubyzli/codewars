@@ -1,9 +1,10 @@
 .container-bmi{
-    padding-top: 10vh;
+    padding-top: 16vh;
     padding-left: 10vw;
-    background-color: rgb(255, 255, 255);
-    color: rgb(0, 0, 0);
+    background-color: rgb(0, 0, 0);
+    color: rgb(255, 255, 255);
     font-family: Arial, Helvetica, sans-serif;
+    height: 100vh;
 }
 /* <!-- //////////////////// MENU ////////////////////// --> */
 .navbar {

@@ -16,19 +16,12 @@ function getBMI(heightValue, weightValue) {
 }
 
 function createBMI(bmi) {
-    // create a new div element
-    const newParagraph = document.createElement("p");
-    
-    // and give it some content
-    const newContent = document.createTextNode("Your BMI is: " + bmi);
-    
-    // add the text node to the newly created div
+    let newParagraph = document.createElement("p");
+    let newContent = document.createTextNode("Your BMI is: " + bmi);
     newParagraph.appendChild(newContent);
-    
-    // add the newly created element and its content into the DOM
-    const currentParagraph = document.getElementById("p2");
-    
-    document.body.insertBefore(newParagraph, currentParagraph);
+
+    let container = document.querySelector(".container-bmi");
+    container.appendChild(newParagraph);
 }
 
 buttonSubmit.addEventListener("click", function addElement() {
